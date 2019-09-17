@@ -10,3 +10,19 @@ body.backgroundImage{
 	background-color: white;
 	
 }
+
+.startButton{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.leftButton{
+    margin-left: 35%;
+    width: 15%;
+}
+
+.rightButton{
+    margin-right: 30%;
+    width: 15%;
+}

@@ -64,14 +64,6 @@ function sixesCheck(firstRoll, secondRoll) {
 // This function takes the player's initial roll to see how many rounds they have before the game is busted and adjusts it by up to three extra rounds.
 function rollsUntilBust(bustRoll){
     let roundAdjust = Math.floor(Math.random() * 4);
-
-    if (bustRoll < 5) {
-        bustRoll = 5;
-    }
-    if (bustRoll > 17) {
-        bustRoll = 17;
-    }
-        
     let actualRounds = bustRoll + roundAdjust;
     console.log("Actual rounds: " + actualRounds);
     return actualRounds;
