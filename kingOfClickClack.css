@@ -1,0 +1,12 @@
+body.backgroundImage{
+	background-color: darkgray;
+	background-size: 100%;
+	background-position: auto;
+}
+
+.gameBox{
+    padding-left: 45%;
+    padding-right: 48%;
+	background-color: white;
+	
+}
