@@ -15,6 +15,8 @@
 //  The game ends when the player backs out, is eliminated or the game is busted.         
 
 
+
+
     
    
 
@@ -118,7 +120,7 @@ function seven() {
     }
 
     if (firstRoll == 7 && secondRoll == 7) {
-        alert("Whatchu know about seven?");
+        alert("What y'all know about seven?");
         roundScore = 77;
     }
     else { alert("You rolled " + secondRoll + ". Oof, so close!");
